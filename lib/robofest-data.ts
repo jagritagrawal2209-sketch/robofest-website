@@ -97,6 +97,7 @@ export const EVENTS: FestEvent[] = [
       { label: 'Mode', value: 'Offline' },
       { label: 'Team', value: 'Solo' },
     ],
+    image: '/images/roboquiz.png',
   },
   {
     id: 'roborace',
@@ -114,6 +115,7 @@ export const EVENTS: FestEvent[] = [
       { label: 'Weight', value: '≤ 5 kg' },
       { label: 'Team', value: '1 — 4' },
     ],
+    image: '/images/roborace.png',
   },
   {
     id: 'ideathon',
@@ -131,6 +133,7 @@ export const EVENTS: FestEvent[] = [
       { label: 'Team', value: '2 — 4' },
       { label: 'Pitch', value: '10 min' },
     ],
+    image: '/images/ideathon.png',
   },
   {
     id: 'robosoccer',
@@ -148,6 +151,7 @@ export const EVENTS: FestEvent[] = [
       { label: 'Weight', value: '≤ 5 kg' },
       { label: 'Match', value: '2.5 min' },
     ],
+    image: '/images/robosoccer.png',
   },
 ]
 
